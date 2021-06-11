@@ -100,6 +100,7 @@ body {
 .site-nav .site-nav-list:hover,
 .site-nav .site-nav-list:focus {
   color: var(--accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .site-nav-list.current {
   color: var(--accent-color);
@@ -127,6 +128,7 @@ body {
 .site-link .link:hover,
 .site-link .link:focus {
   color: var(--accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo {
@@ -426,6 +428,7 @@ body {
   fill: var(--white-color);
   background-color: var(--accent-color);
   border-radius: 50%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-link {
@@ -483,11 +486,13 @@ body {
 .clients-link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* .clients-svg:hover,
 .clients-svg:focus {
   color: var(--accent-color);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
 .client-section {
@@ -579,6 +584,7 @@ body {
   fill: var(--white-color);
   background-color: var(--accent-color);
   border-radius: 50%;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link {
@@ -643,6 +649,7 @@ body {
   cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .product-title {
@@ -686,6 +693,7 @@ body {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-overlay {
