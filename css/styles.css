@@ -96,11 +96,12 @@ body {
 
   color: var(--title-text-color);
   text-decoration: none;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .site-nav-list:hover,
 .site-nav .site-nav-list:focus {
   color: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .site-nav .site-nav-list.current {
   color: var(--accent-color);
@@ -123,12 +124,13 @@ body {
 
   color: var(--description-color);
   text-decoration: none;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .site-link .link:hover,
 .site-link .link:focus {
   color: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .logo {
@@ -428,13 +430,14 @@ body {
   fill: var(--white-color);
   background-color: var(--accent-color);
   border-radius: 50%;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-link {
   display: inline-flex;
   padding: 12px 12px;
   fill: var(--icons-color);
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* CLIENTS */
@@ -455,6 +458,8 @@ body {
   border: 1px solid;
   border-color: var(--icons-color);
   border-radius: 4px;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-title {
@@ -486,7 +491,6 @@ body {
 .clients-link:focus {
   fill: var(--accent-color);
   border-color: var(--accent-color);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* .clients-svg:hover,
@@ -584,7 +588,6 @@ body {
   fill: var(--white-color);
   background-color: var(--accent-color);
   border-radius: 50%;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-link {
@@ -595,6 +598,8 @@ body {
   fill: var(--white-color);
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-icons .list-social:not(:last-child) {
@@ -634,6 +639,8 @@ body {
   background-color: #f5f4fa;
   border: none;
 
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   padding: 6px 22px;
 }
 
@@ -649,7 +656,6 @@ body {
   cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .product-title {
@@ -686,6 +692,8 @@ body {
   flex-basis: calc(100% / 3 - var(--main-margin));
   margin-right: var(--main-margin);
   margin-bottom: var(--main-margin);
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .products .product-item:hover,
@@ -693,7 +701,6 @@ body {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-overlay {
